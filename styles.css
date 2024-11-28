@@ -1,0 +1,71 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.left-side {
+    position: relative;
+    width: 50%;
+    overflow: hidden;
+}
+
+.background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.logo-container {
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.logo {
+    width: 80px;
+    margin-right: 10px;
+}
+
+.site-title {
+    font-size: 24px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    margin: 10;
+}
+
+.right-side {
+    width: 50%;
+    padding: 40px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.right-side h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.right-side p {
+    color: #666;
+    line-height: 1.5;
+}
+
+.right-side strong {
+    color: #000;
+}
